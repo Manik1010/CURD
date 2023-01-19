@@ -1,0 +1,39 @@
+.navbar  img{
+	margin-left: 100px;
+	
+}
+.dropdown-content {
+  display: none;
+ 
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display:inline-block;
+  margin-right: 50px;
+}
+
+/* Gallery page*/
+.gallery h1{
+  font-size: 24px;
+  color: blueviolet;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Insert_Page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <br><br><br>
+
+    <div class="cintainer">
+      <div class="row">
+        <!-- Left side bar -->
+        <div class="col-md-3">
+          <a class="btn btn-info" href="index.php">Student list</a>
+        </div>
+        <!-- Right side Bar -->
+        <div class="col-md-9">
+          <h2>Add New Student</h2>
+          <br>
+
+          <form action="store.php" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" name="name" placeholder="Enter name ">
+            </div>
+            <div class="form-group">
+              <label for="age">Age:</label>
+              <input type="text" class="form-control" name="age" placeholder="Enter age ">
+            </div>
+            <div class="form-group">
+              <label for="roll">Roll:</label>
+              <input type="text" class="form-control" name="roll" placeholder="Enter roll ">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
